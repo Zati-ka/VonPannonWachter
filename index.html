@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+	<!-- Mobilon megjelenítés optimalizálás -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Von Pannon Wächter - Dobermnan tenyészet</title>
+    <!-- dizájn elemek -->
+	<link href="dobi.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#haza" class="logo">
+                <span class="logo-text">Von Pannon Wächter</span>
+            </a>
+			<!-- mobilos nézetben (vagy ha lekicsinyíted a böngészőablakot 768 pixelnél keskenyebbre), máris ott kell lennie a jobb felső sarokban a gombnak, és működnie kell a lenyíló animációnak. -->
+			<div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#haza" class="nav-link">Home</a></li>
+                <li><a href="#rolunk" class="nav-link">Rólunk</a></li>
+                <li><a href="#tenyesztes" class="nav-link">Tenyésztés</a></li>
+                <li><a href="#kepek" class="nav-link">Képek</a></li>
+                <li><a href="#kapcsolat" class="nav-link">Kapcsolat</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="haza">        
+
+        <div class="mandala-bg">
+            <div class="mandala-circle"></div>
+            <div class="mandala-circle"></div>
+            <div class="mandala-circle"></div>
+        </div>
+        <div class="haza-content">
+            <h1>Találj rá életed négylábú társára</h1>
+            <p>Segítün, hogy egy új dobermnannal bővüljön a család</p>
+            <a href="#rolunk" class="cta-button">Vágjunk bele!</a>
+        </div>
+    </section>
+
+    <!-- rolunk -->
+    <section id="rolunk">
+        <h2 class="section-title">Kik vagyunk mi és mit csinálunk?</h2>
+        <p class="section-subtitle">Mi is egy család vagyunk</p>
+        <!-- Floating Cards Design -->
+        <div class="rolunk-floating-cards">
+            <div class="floating-card">
+                <div class="card-icon">
+                    <div class="icon-wrapper">🦴</div>
+                </div>
+                <h3>Honnan indultunk</h3>
+                <p>Otthnról sablon szöveg ide nektek kell kitalálni valami frappánsat. :D de majd jön. Ne AI-val csináljátok szánjátok rá az időt.</p>
+            </div>
+            
+            <div class="floating-card">
+                <div class="card-icon">
+                    <div class="icon-wrapper">⚙️</div>
+                </div>
+                <h3>Mit csinálunk</h3>
+                <p>Sokat dolgozunk eszünk iszunk.</p>
+            </div>
+            
+            <div class="floating-card">
+                <div class="card-icon">
+                    <div class="icon-wrapper">🎯</div>
+                </div>
+                <h3>Célunk</h3>
+                <p>Hogy legyen végre valami befejezve mint PL. ez a honlap :D.</p>
+            </div>
+        </div>
+
+        <!-- Stats Banner -->
+        <div class="stats-banner">
+            <div class="stat-block">
+                <div class="stat-value">1X</div>
+                <div class="stat-desc">Sikeres almaink</div>
+            </div>
+            <div class="stat-block">
+                <div class="stat-value">100+</div>
+                <div class="stat-desc">Barátaink</div>
+            </div>
+            <div class="stat-block">
+                <div class="stat-value">4.5★</div>
+                <div class="stat-desc">Visszajelzések</div>
+            </div>
+        </div>
+
+        <!-- Feature Showcase -->
+        <div class="feature-showcase">
+            <div class="showcase-content">
+                <h3>Miért minket válassz?</h3>
+                <ul class="feature-list">
+                    <li>
+                        <span class="feature-check">✓</span>
+                        <span>Tudjuk mint csinálunk</span>
+                    </li>
+                    <li>
+                        <span class="feature-check">✓</span>
+                        <span>Odafigyelünk állatainkra</span>
+                    </li>
+                    <li>
+                        <span class="feature-check">✓</span>
+                        <span>Elsöprő lelkesedés hajt</span>
+                    </li>
+                    <li>
+                        <span class="feature-check">✓</span>
+                        <span>Elhivatotság a fajta iránt</span>
+                    </li>
+                    <li>
+                        <span class="feature-check">✓</span>
+                        <span>Vannak macskáink is</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- tenyesztes Section - Enhanced Timeline Design -->
+    <section id="tenyesztes">
+        <div class="tenyesztes-container">
+            <h2 class="section-title">Tenyésztésünk alapelvei</h2>
+            <p class="section-subtitle">Jól csinálni csak szívvel-lélekkel tudod</p>
+                <!-- Kártyák rácsszerkezetben -->
+                <div class="tenyesztes-grid">
+                    <div class="practice-card-new">
+                        <div class="practice-header">
+                            <div class="practice-icon-new">♀️</div>
+                            <div>
+                                <h3>Megfelelő anya kiválasztása</h3>
+                                <span>Senki nem születik jó anyának</span>
+                            </div>
+                        </div>
+                        <p>
+                            Fontos leszögezni, hogy egy jó anya nem a fán terem. Attól, hogy ösztönösen jó az anyai feladatokban, még sok apró részletre meg kell tanítani.
+                        </p>
+                    </div>
+
+                    <div class="practice-card-new">
+                        <div class="practice-header">
+                            <div class="practice-icon-new">♂️</div>
+                            <div>
+                                <h3>Megfelelő apa kiválasztása</h3>
+                                <span>Főleg a küllem számít</span>
+                            </div>
+                        </div>
+                        <p>
+                            Azt a két lökést szinte bármelyik kan meg tudja csinálni. Fontos, hogy csak olyan kanokkal fedeztetünk melyek kinéznek valahogy.
+                        </p>
+                    </div>
+
+                    <div class="practice-card-new">
+                        <div class="practice-header">
+                            <div class="practice-icon-new">🤰🏻</div>
+                            <div>
+                                <h3>Vemhesség</h3>
+                                <span>Oda figyelve hamar elrepül ez az idő</span>
+                            </div>
+                        </div>
+                        <p>
+                            Írjatok ide valamit
+                        </p>
+                    </div>
+
+                    <div class="practice-card-new">
+                        <div class="practice-header">
+                            <div class="practice-icon-new">🐾</div>
+                            <div>
+                                <h3>Kölykök nevelése</h3>
+                                <span>Nem csak az anya feldata</span>
+                            </div>
+                        </div>
+                        <p>
+                            Még kell ide is valami szöveg.
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- kepek -->
+    <section id="kepek">
+        <h2 class="section-title">Képek</h2>
+		<p class="section-subtitle"> </p>
+        <div id="meditations">
+            <div class="resource-list">
+                <div class="resource-card">
+                    <div class="resource-image">
+                        <div class="resource-thumbnail kep_1"></div>
+                    </div>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-image">
+                        <div class="resource-thumbnail kep_2"></div>
+                    </div>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-image">
+                        <div class="resource-thumbnail kep_3"></div>
+                    </div>
+                </div>
+				<div class="resource-card">
+                    <div class="resource-image">
+                        <div class="resource-thumbnail kep_4"></div>
+                    </div>
+                </div>
+				<div class="resource-card">
+                    <div class="resource-image">
+                        <div class="resource-thumbnail kep_5"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- kapcsolat Section -->
+    <section id="kapcsolat">
+        <div class="feature-showcase">
+            <h2 class="section-title">Lépj velünk kapcsolatba</h2>
+            
+            <div class="kapcsolat-wrapper">
+                <div class="info-item">
+                    <div class="info-icon">📍</div>
+                    <div>
+                        <h4>Látogass el hozzánk</h4>
+                        <p>8613, Balatonendréd<br>Arany János utca 4</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-icon">📧</div>
+                    <div>
+                        <h4>Email</h4>
+                        <p>...@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-icon">📞</div>
+                    <div>
+                        <h4>Telefonszámunk</h4>
+                        <p>+36301234567<br>Hétfőtől Péntekig, 9:00-16:00</p>
+                    </div>
+                </div>
+            </div>
+			<h2 class="section-title">Köszönjük, hogy meglátogatáál minket!</h2>
+        </div>
+    </section>
+	
+
+<script src="dobi.js"></script>
+</body>
+</html>
